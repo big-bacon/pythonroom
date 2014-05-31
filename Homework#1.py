@@ -10,6 +10,7 @@ for j in range (0,Pic):
 		#print "r %d" % r
 		if r > 50: 
 			ok = False
+			#print "person %d blinked"     %i
 	if ok == True:
-		print "No flies after taking %d pictures." %j
+		print "Nobody blinked after taking %d pictures." %j
 		break
