@@ -1,7 +1,15 @@
 # author: big-bacon
-n = 4
-f = 19
-
-chance = 1/100
-for i in range(0,10):
-	print
+import random
+NumPeople = 6
+Pic = 100
+for j in range (0,Pic):
+	ok = True 
+	for i in range(0,NumPeople):
+		r = random.randint(0,100)
+		
+		#print "r %d" % r
+		if r > 50: 
+			ok = False
+	if ok == True:
+		print "No flies after taking %d pictures." %j
+		break
