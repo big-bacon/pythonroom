@@ -1,8 +1,7 @@
 # author: big-bacon
 you = input("talk")
 you = you.lower()
-print you
 
-if word[0] == "a" or word[0] == "e" or word[0] == "i" or word[0] == "o" or word[0] == "u" or word[0] == "y":
-	you = you + "ay"
-	print you
+if you[0] == "a" or you[0] == "e" or you[0] == "i" or you[0] == "o" or you[0] == "u" or you[0] == "y":
+	you = you + "yay"
+print you
