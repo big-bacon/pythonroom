@@ -11,4 +11,5 @@ for j in range (0,Pic):
 			ok = False
 	if ok == True:
 		print "Nobody blinked after taking %d pictures." %j
-		break
+	break
+	
